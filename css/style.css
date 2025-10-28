@@ -97,7 +97,7 @@ img {
   font-size: 16px;
 }
 .navbar .container .nav-menu ul li a:hover {
-  color: #3420DE;
+  color: #3420de;
 }
 .navbar .container .btn button {
   border-radius: 50px;
@@ -109,7 +109,7 @@ img {
 }
 
 .navbar .container .btn button:hover {
-  background-color: #3420DE;
+  background-color: #3420de;
 }
 
 .navbar .container .hamburger {
@@ -136,10 +136,8 @@ img {
   padding-left: 200px;
   padding-right: 200px;
   padding-top: 70px;
-  color: #3420DE;
+  color: #3420de;
 }
-
-
 
 .banner .container .row .col100 .text button {
   background-color: #e14404;
@@ -152,157 +150,185 @@ img {
   text-transform: capitalize;
 }
 .banner .container .row .col100 .text button:hover {
-  background-color: #3420DE;
+  background-color: #3420de;
 }
 
 /*================feature=============================== */
 
-.feature{
-    min-height: 700px;
-    position: relative;
-    width: 100%;
-    padding-top: 50px;
+.feature {
+  min-height: 700px;
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
 }
 
-.feature .container .row .col100 .text{
-    text-align: center;
+.feature .container .row .col100 .text {
+  text-align: center;
 }
 
-.feature .container .row .col100 .text h2{
-    font-size: 20px;
-    color: #e14404;
+.feature .container .row .col100 .text h2 {
+  font-size: 20px;
+  color: #e14404;
 }
 
-.feature .container .row .col100 .text h3{
-    font-size: 40px;
-    padding-top: 20px;
-  color: #3420DE;
+.feature .container .row .col100 .text h3 {
+  font-size: 40px;
+  padding-top: 20px;
+  color: #3420de;
   text-transform: capitalize;
 }
-.feature .container .row .col100 .text p{
-    font-size: 20px;
-    color: #e14404;
-    padding-top: 20px;
+.feature .container .row .col100 .text p {
+  font-size: 20px;
+  color: #e14404;
+  padding-top: 20px;
 }
 
-.feature .container .row .col33 .box{
-    height: 250px;
-    margin-top: 30px;
-    padding-top: 20px;
-    text-align: center;
-    box-shadow:5px 5px 5px 5px #010116;
+.feature .container .row .col33 .box {
+  height: 250px;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 5px 5px #010116;
 }
 
-.feature .container .row .col33 .box:hover{
-    background-color: #e14404;
+.feature .container .row .col33 .box:hover {
+  background-color: #e14404;
 }
-.feature .container .row .col33 .box .image img{
-    width: 70px;
-    height: 70px;
-
-}
-
-.feature .container .row .col33 .box h4{
-    font-size: 22px;
-    color: #303031;
-    text-transform: capitalize;
-    padding-top: 20px;
+.feature .container .row .col33 .box .image img {
+  width: 70px;
+  height: 70px;
 }
 
-.feature .container .row .col33 .box p{
-    font-size: 16px;
-    color: #828285;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-right: 75px;
-    padding-left: 75px;    
+.feature .container .row .col33 .box h4 {
+  font-size: 22px;
+  color: #303031;
+  text-transform: capitalize;
+  padding-top: 20px;
+}
+
+.feature .container .row .col33 .box p {
+  font-size: 16px;
+  color: #828285;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 75px;
+  padding-left: 75px;
 }
 
 /* ================whatwedo============================= */
-.whatwedo{
+.whatwedo {
   min-height: 1000px;
   position: relative;
   width: 100%;
 }
-.whatwedo .container .row .col50 .text h2{
+.whatwedo .container .row .col50 .text h2 {
   color: #e14404;
   font-size: 20px;
 }
 
-.whatwedo .container .row .col50 .text h3{
+.whatwedo .container .row .col50 .text h3 {
   font-size: 40px;
   padding-top: 30px;
-  color: #3420DE;
+  color: #3420de;
 }
 
-.whatwedo .container .row .col50 .text h4{
+.whatwedo .container .row .col50 .text h4 {
   font-size: 20px;
   color: #303031;
   padding-top: 20px;
 }
 
-.whatwedo .container .row .col50 .text p{
+.whatwedo .container .row .col50 .text p {
   font-size: 20px;
   color: #303031;
   padding-top: 20px;
 }
 
-.whatwedo .container .row .col50 .text #pa{
+.whatwedo .container .row .col50 .text #pa {
   font-size: 20px;
   color: #303031;
   padding-top: 20px;
 }
 
-.whatwedo .container .row .col25 .box{
-  background-color: #3420DE;
+.whatwedo .container .row .col25 .box {
+  background-color: #3420de;
   margin-top: 50px;
-border-bottom-left-radius: 50px;
-border-bottom-right-radius: 50px;
-border-top-left-radius: 50px;
-border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
-.whatwedo .container .row .col25 .box .text{
+.whatwedo .container .row .col25 .box .text {
   text-align: center;
 }
 
-.whatwedo .container .row .col25 .box .text h5{
+.whatwedo .container .row .col25 .box .text h5 {
   font-size: 82px;
   padding-top: 30px;
-    color: #ffffff;
+  color: #ffffff;
 }
-.whatwedo .container .row .col25 .box .text h6{
+.whatwedo .container .row .col25 .box .text h6 {
   font-size: 16px;
   padding-top: 30px;
   padding-bottom: 30px;
-    color: #ffffff;
+  color: #ffffff;
 }
 
 /* ================================classes================================ */
 
-.classes{
+.classes {
   min-height: 500px;
   position: relative;
   width: 100%;
 }
 
-.classes .container .row .col100 .text{
+.classes .container .row .col100 .text {
   text-align: center;
 }
-.classes .container .row .col100 .text h2{
+.classes .container .row .col100 .text h2 {
   font-size: 30px;
   color: #e14404;
   text-transform: uppercase;
 }
-.classes .container .row .col100 .text h3{
+.classes .container .row .col100 .text h3 {
   font-size: 40px;
-  color: #3420DE;
+  color: #3420de;
   padding-top: 20px;
   text-transform: capitalize;
 }
 
-.classes .container .row .col100 .text p{
+.classes .container .row .col100 .text p {
   font-size: 25px;
   color: #303031;
   padding-top: 20px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+
+.swiper-slide .text h4 {
+  font-size: 30px;
+  color: #3420de;
+  margin-top: 10px;
+}
+
+.swiper-slide .text h5 {
+  font-size: 20px;
+  color: #303031;
+  margin-top: 10px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 30px;
 }
