@@ -558,7 +558,7 @@ img {
 /* ===============team========================== */
 
 .team {
-  min-height: 1000px;
+  min-height: 800px;
   position: relative;
   width: 100%;
 }
@@ -623,4 +623,127 @@ img {
 
 .team .container .row .swiper-slide:nth-child(3n) {
   width: 20%;
+}
+
+/* ======================Testimonial======================== */
+.testimonial {
+  min-height: 700px;
+  position: relative;
+  width: 100%;
+}
+
+.testimonial .container .row .col100 .text {
+  text-align: center;
+}
+.testimonial .container .row .col100 .text h2 {
+  font-size: 25px;
+  color: #e14404;
+  text-transform: capitalize;
+}
+
+.testimonial .container .row .col100 .text h3 {
+  font-size: 45px;
+  color: #3420de;
+  text-transform: capitalize;
+  padding-top: 30px;
+}
+.testimonial .container .row .col100 .text p {
+  font-size: 20px;
+  color: #303031;
+  padding-top: 30px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+/* =================footer================== */
+
+.footer {
+  min-height: 300px;
+  width: 100%;
+  background-color: #3420de;
+}
+
+.footer .container .row .col25 .images {
+  padding-top: 30px;
+}
+
+.footer .container .row .col25 .images img {
+  width: 150px;
+  height: auto;
+}
+.footer .container .row .col25 .para-1 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer .container .row .col25 .social-icons {
+  padding-top: 50px;
+}
+
+.footer .container .row .col25 .social-icons a {
+  color: #ffffff;
+  display: flex;
+  margin-bottom: 10px;
+}
+.footer .container .row .col25 .social-icons a i {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.footer .container .row .col25 .para-2 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #e14404;
+  padding-top: 30px;
+}
+
+.footer .container .row .col25 ul li a {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+}
+.footer .container .row .col25 ul li a:hover {
+  color: #b83a08;
+  padding-left: 20px;
+}
+
+.footer .container .row .col25 button{
+background-color: #e14404;
+color: #000;
+font-size: 20px;
+border: none;
+padding: 10px 17px;
+margin-top: 30px;
+border-radius: 50px;
+text-transform: capitalize;
+}
+
+.footer .container .row .col25 button:hover{
+  background-color: #b83a08;
+}
+.footer .container .row .col100 {
+  max-width: 100%;
+  flex: 0 0 100%;
+  padding: 0 15px;
+  text-align: center;
+}
+.footer .container .row .col100 p {
+  padding-top: 30px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
 }

@@ -505,12 +505,6 @@
             </div>
           </div>
 
-          <!-- <div class="col33">
-
-           
-
-          </div> -->
-
           <div class="swiper mySwipertea">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -664,6 +658,114 @@
       </div>
     </section>
 
+    <!-- testimonial -->
+    <section class="testimonial">
+      <div class="container">
+        <div class="row">
+          <div class="col100">
+            <div class="text">
+              <h2>testimonials</h2>
+              <h3>What Future Robotics Engineers Say</h3>
+              <p>We love receiving feedback from our young students!</p>
+            </div>
+          </div>
+
+          <div class="swiper mySwipertes">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./image/banner.avif" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/banner2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/banner.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./image/banner3.jpg" />
+              </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- footer -->
+     <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col25">
+            <div class="images">
+              <img src="./image/log.png" alt="" />
+
+              <p class="para-1">
+                Quam lacus suspendisse faucibus interdum posuere lorem ipsum
+                dolor sit. Vel quam elementum pulvinar eti
+              </p>
+              <div class="social-icons">
+                <a href=""
+                  ><i class="fa-solid fa-location-dot"></i>Somewhere, Earth</a
+                >
+                <a href=""
+                  ><i class="fa-solid fa-envelope-open-text"></i
+                  >aspire@dummy.com</a
+                >
+                <a href=""><i class="fa-solid fa-phone"></i>+123 123 123</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col25">
+            <p class="para-2">Quick Links</p>
+            <ul>
+              <li><a href="#Services">Services</a></li>
+              <li><a href="#industries">Industries & Clients</a></li>
+              <li><a href="#AI">AI & Automation</a></li>
+              <li><a href="#How">How Much Can You Save</a></li>
+              <li><a href="#Guides">Guides & Blog</a></li>
+              <li><a href="#About">About Us</a></li>
+            </ul>
+          </div>
+
+          <div class="col25">
+            <p class="para-2">Contact information</p>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-at"></i>info@rivagroupconsulting.com</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-location-dot"></i>Kirkland, WA 98034</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col25">
+            <p class="para-2">Others links</p>
+            <ul>
+              <li><a href="#policy">Privacy Policy</a></li>
+              <li><a href="#terms">Terms and conditions</a></li>
+            </ul>
+
+            <button>contact us</button>
+
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col100">
+            <p>Copyright 2025 Aspire | All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
@@ -708,6 +810,30 @@
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwipertes", {
+        spaceBetween: 30,
+        effect: "fade",
+        slidesPerView: 3,
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
         },
       });
     </script>
