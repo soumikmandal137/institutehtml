@@ -337,76 +337,74 @@ img {
 
 /* ==============================video============================= */
 
-.video{
+.video {
   min-height: 700px;
   position: relative;
   width: 100%;
   background-color: #3420de;
-
 }
 
-.video .container .row .col100 .text{
+.video .container .row .col100 .text {
   text-align: center;
 }
 
-.video .container .row .col100 .text h2{
+.video .container .row .col100 .text h2 {
   color: #e14404;
   font-size: 25px;
   padding-top: 100px;
 }
 
-.video .container .row .col100 .text h3{
+.video .container .row .col100 .text h3 {
   color: #ffffff;
   font-size: 40px;
   padding-top: 10px;
   text-transform: capitalize;
 }
-.video .container .row .col100 .text p{
+.video .container .row .col100 .text p {
   font-size: 20px;
   color: #ffffff;
   padding-top: 20px;
 }
-.video .container .row .col100 .image{
+.video .container .row .col100 .image {
   padding-top: 30px;
 }
 
-.video .container .row .col100 .image img{
+.video .container .row .col100 .image img {
   height: 400px;
 }
 
-
 /* ======================price==================== */
-.price{
+.price {
   min-height: 800px;
   position: relative;
   width: 100%;
   padding-top: 50px;
 }
 
-.price .container .row .col100 .text{
+.price .container .row .col100 .text {
   text-align: center;
 }
 
-.price .container .row .col100 .text h2{
+.price .container .row .col100 .text h2 {
   font-size: 25px;
   color: #e14404;
   text-transform: uppercase;
 }
 
-.price .container .row .col100 .text h3{
-  font-size:40px;
+.price .container .row .col100 .text h3 {
+  font-size: 40px;
   color: #3420de;
   text-transform: capitalize;
   padding-top: 30px;
 }
 
-.price .container .row .col100 .text p{
+.price .container .row .col100 .text p {
   font-size: 20px;
   color: #303031;
   padding-top: 20px;
 }
 
-.price .container .row .col33 .box{
+.price .container .row .col33 .box {
   height: 500px;
   width: 100%;
   background-color: rgb(222, 220, 218);
@@ -418,13 +416,13 @@ img {
   border-top-right-radius: 50px;
 }
 
-.price .container .row .col33 .box:hover{
+.price .container .row .col33 .box:hover {
   background-color: yellow;
-padding: 20px;
-margin: 20px;
+  padding: 20px;
+  margin: 20px;
 }
 
-.price .container .row .col33 .box .image img{
+.price .container .row .col33 .box .image img {
   height: 60px;
   width: 60px;
   border-radius: 50px;
@@ -432,25 +430,25 @@ margin: 20px;
   background-color: #dbc4c4;
 }
 
-.price .container .row .col33 .box h4{
+.price .container .row .col33 .box h4 {
   font-size: 46px;
   color: #e14404;
   padding-top: 30px;
 }
 
-.price .container .row .col33 .box h5{
+.price .container .row .col33 .box h5 {
   font-size: 25px;
   color: #3420de;
   padding-top: 30px;
 }
 
-.price .container .row .col33 .box p{
+.price .container .row .col33 .box p {
   padding-left: 30px;
   padding-right: 30px;
   padding-top: 30px;
 }
 
-.price .container .row .col33 .box .but button{
+.price .container .row .col33 .box .but button {
   padding: 17px 20px;
   margin-top: 30px;
   background-color: #e14404;
@@ -460,6 +458,39 @@ margin: 20px;
   border: none;
 }
 
-.price .container .row .col33 .box .but button:hover{
+.price .container .row .col33 .box .but button:hover {
   background-color: #3420de;
+}
+
+/* ============teach========================== */
+
+.teach{
+  min-height: 600px;
+  position: relative;
+  width: 100%;
+}
+
+.teach .container .row .col50 .text h2 {
+font-size: 20px;
+color: #e14404;
+text-transform: uppercase;
+}
+
+.teach .container .row .col50 .text h3{
+  font-size: 40px;
+  color: #3420de;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.teach .container .row .col50 .text h4{
+  font-size: 20px;
+  color: #303031;
+  padding-top: 30px;
+}
+
+.teach .container .row .col50 .text p{
+  font-size: 20px;
+  color: #303031;
+  padding-top: 20px;
 }
