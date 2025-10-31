@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
+    <!--fontaswam  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
@@ -19,6 +28,8 @@
 
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="./responsive/responsive.css" />
   </head>
   <body>
     <main>
@@ -69,6 +80,7 @@
     </section>
 
     <!-- feature -->
+
     <section class="feature">
       <div class="container">
         <div class="row">
@@ -198,6 +210,8 @@
       </div>
     </section>
 
+    <!-- class -->
+
     <section class="classes">
       <div class="container">
         <div class="row">
@@ -212,7 +226,6 @@
             </div>
           </div>
 
-          <!-- Swiper -->
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -346,6 +359,7 @@
     </section>
 
     <!-- price -->
+
     <section class="price">
       <div class="container">
         <div class="row">
@@ -419,6 +433,7 @@
     </section>
 
     <!-- teach -->
+
     <section class="teach">
       <div class="container">
         <div class="row">
@@ -449,6 +464,7 @@
     </section>
 
     <!-- book -->
+
     <section class="book">
       <div class="container">
         <div class="row">
@@ -466,7 +482,8 @@
       </div>
     </section>
 
-    <!-- paralex -->
+    <!-- paalex -->
+
     <section class="para">
       <div class="container">
         <div class="row">
@@ -477,7 +494,7 @@
               style="
                 height: 500px;
                 background-color: rgb(255, 255, 255);
-                font-size: 36px;
+                font-size: 25px;
               "
             >
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ea
@@ -491,6 +508,7 @@
     </section>
 
     <!-- team -->
+
     <section class="team">
       <div class="container">
         <div class="row">
@@ -659,6 +677,7 @@
     </section>
 
     <!-- testimonial -->
+
     <section class="testimonial">
       <div class="container">
         <div class="row">
@@ -693,8 +712,9 @@
       </div>
     </section>
 
-<!-- footer -->
-     <footer class="footer">
+    <!-- footer -->
+
+    <footer class="footer">
       <div class="container">
         <div class="row">
           <div class="col25">
@@ -754,13 +774,12 @@
             </ul>
 
             <button>contact us</button>
-
           </div>
         </div>
 
         <div class="row">
           <div class="col100">
-            <p>Copyright 2025 Aspire | All Rights Reserved.</p>
+            <p>Copyright 2025 Institute | All Rights Reserved.</p>
           </div>
         </div>
       </div>
@@ -778,6 +797,24 @@
         autoplay: {
           delay: 2500,
           disableOnInteraction: false,
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          576: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 4,
+            spaceBetween: 50,
+          },
         },
         pagination: {
           el: ".swiper-pagination",
@@ -803,6 +840,24 @@
           delay: 2500,
           disableOnInteraction: false,
         },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          576: {
+            slidesPerView: 1,
+            spaceBetween: 20,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 50,
+          },
+        },
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -827,6 +882,7 @@
           delay: 2500,
           disableOnInteraction: false,
         },
+
         navigation: {
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
@@ -837,6 +893,13 @@
         },
       });
     </script>
+
+    <!-- Jquery CDN link -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
 
     <script src="./js/script.js"></script>
   </body>

@@ -1,0 +1,190 @@
+@media screen and (max-width: 1024px) {
+  /* ===================== navbar ===================== */
+  .navbar .container .nav-menu ul li {
+    padding: 0 10px;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+
+  .feature .container .row .col33 .box {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* ===================== hamburger ===================== */
+  .navbar .container .hamburger {
+    display: inline;
+    color: #000000;
+  }
+
+  .navbar .container .nav-menu ul {
+    display: block;
+    position: absolute;
+    top: 101px;
+    background: linear-gradient(rgb(222, 235, 224), rgb(178, 179, 178));
+    width: 100%;
+    left: 0;
+    text-align: center;
+    z-index: 100;
+  }
+
+  .navbar .container .nav-menu ul li {
+    padding: 15px 0;
+  }
+
+  .navbar .container .nav-menu ul li a {
+    font-size: 16px;
+  }
+
+  .banner .container .row .col100 .text h1 {
+    font-size: 45px;
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+
+  .teach .container .row .col50 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .feature .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .whatwedo .container .row .col50 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .book .container .row .col100 .text h3 {
+    font-size: 60px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+
+  .price .container .row .col33 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .feature .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .whatwedo .container .row .col25 {
+    max-width: 33.33%;
+    flex: 0 0 33.33%;
+  }
+
+  .classes .container .row .col100 .text h3 {
+    font-size: 30px;
+  }
+
+  .book .container .row .col100 .text h3 {
+    font-size: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .feature .container .row .col100 .text h3 {
+    font-size: 30px;
+  }
+
+  .whatwedo .container .row .col25 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+  .price .container .row .col33 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .teach .container .row .col50 .text h3 {
+    font-size: 35px;
+    padding-right: 50px;
+  }
+
+  .book .container .row .col100 .text h3 {
+    font-size: 30px;
+  }
+
+  .testimonial .container .row .col100 .text h3 {
+    font-size: 35px;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .banner .container .row .col100 .text h1 {
+    font-size: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .feature .container .row .col100 .text h3 {
+    font-size: 20px;
+  }
+
+  .whatwedo .container .row .col25 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+
+  .classes .container .row .col100 .text h3 {
+    font-size: 20px;
+  }
+  .video .container .row .col100 .text h3 {
+    font-size: 25px;
+  }
+
+  .teach .container .row .col50 .text h3 {
+    font-size: 25px;
+    padding-right: 20px;
+  }
+  .book .container .row .col100 .text h3 {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .team .container .row .col100 .text h3 {
+    font-size: 25px;
+  }
+  .testimonial .container .row .col100 .text h3 {
+    font-size: 25px;
+  }
+
+  .footer .container .row .col25 {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}

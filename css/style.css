@@ -220,6 +220,7 @@ img {
   min-height: 1000px;
   position: relative;
   width: 100%;
+  margin-top: 20px;
 }
 .whatwedo .container .row .col50 .text h2 {
   color: #e14404;
@@ -281,6 +282,7 @@ img {
   min-height: 700px;
   position: relative;
   width: 100%;
+  margin-top: 20px;
 }
 
 .classes .container .row .col100 .text {
@@ -375,7 +377,7 @@ img {
 
 /* ======================price==================== */
 .price {
-  min-height: 800px;
+  min-height: 900px;
   position: relative;
   width: 100%;
   padding-top: 50px;
@@ -468,6 +470,7 @@ img {
   min-height: 600px;
   position: relative;
   width: 100%;
+  margin-top: 20px;
 }
 
 .teach .container .row .col50 .text h2 {
@@ -502,6 +505,7 @@ img {
   position: relative;
   width: 100%;
   background-color: #e1e1e1;
+  margin-top: 20px;
 }
 .book .container .row .col100 .text {
   text-align: center;
@@ -721,18 +725,18 @@ img {
   padding-left: 20px;
 }
 
-.footer .container .row .col25 button{
-background-color: #e14404;
-color: #000;
-font-size: 20px;
-border: none;
-padding: 10px 17px;
-margin-top: 30px;
-border-radius: 50px;
-text-transform: capitalize;
+.footer .container .row .col25 button {
+  background-color: #e14404;
+  color: #000;
+  font-size: 20px;
+  border: none;
+  padding: 10px 17px;
+  margin-top: 30px;
+  border-radius: 50px;
+  text-transform: capitalize;
 }
 
-.footer .container .row .col25 button:hover{
+.footer .container .row .col25 button:hover {
   background-color: #b83a08;
 }
 .footer .container .row .col100 {
